@@ -1,8 +1,10 @@
 <div align="center">
 
 # Force-Regime Downward Compatibility
+---
+## Contact-Rich Bimanual Imitation Learning under Hidden Pulling Resistance
 
-### Contact-Rich Bimanual Imitation Learning under Hidden Pulling Resistance
+
 
 <p>
   <em>This is a quick preview for collaborators; the formal website and submission videos will be updated within two days.</em>
@@ -11,7 +13,21 @@
 </div>
 
 ---
+## Collaborator Preview Video
 
+<div align="center">
+
+<!-- Replace YOUR_VIDEO_LINK_HERE with the temporary video link. -->
+
+<a href="https://youtu.be/kj5nVsSxAcY">
+  <img src="https://img.shields.io/badge/Watch-Preview%20Video-blue?style=for-the-badge" alt="Watch Preview Video">
+</a>
+
+</div>
+
+
+
+---
 ## Overview
 
 We study how bimanual imitation policies behave when the visual task remains nearly identical, but the hidden pulling resistance changes.
@@ -39,21 +55,7 @@ This preview focuses on three representative train–test settings:
 
 ---
 
-## Collaborator Preview Video
 
-<div align="center">
-
-<!-- Replace YOUR_VIDEO_LINK_HERE with the temporary video link. -->
-
-<a href="https://youtu.be/kj5nVsSxAcY">
-  <img src="https://img.shields.io/badge/Watch-Preview%20Video-blue?style=for-the-badge" alt="Watch Preview Video">
-</a>
-
-</div>
-
-
-
----
 
 ## Key Takeaway
 
