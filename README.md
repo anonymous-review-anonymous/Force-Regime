@@ -51,9 +51,7 @@ This preview focuses on three representative train–test settings:
 
 </div>
 
-<p align="center">
-  <em>If the button does not open, replace <code>YOUR_VIDEO_LINK_HERE</code> with the temporary collaborator video URL.</em>
-</p>
+
 
 ---
 
