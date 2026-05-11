@@ -260,7 +260,7 @@ Force-Regime Downward Compatibility in Contact-Rich Bimanual Imitation Learning
 <div class="affiliation">Affiliation withheld for double-blind review</div>
 
 <div class="links">
-<a href="https://youtu.be/kj5nVsSxAcY" target="_blank">Main Video</a>
+<a href="https://youtu.be/kj5nVsSxAcY" target="_blank">Video</a>
 <a class="disabled">Hardware</a>
 <a class="disabled">Dataset</a>
 <a class="disabled">Paper</a>
