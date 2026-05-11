@@ -331,35 +331,35 @@ The highlighted cases illustrate both in-regime execution and asymmetric force-r
 <div class="yt-grid">
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/3nCS5D1Bua0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/3nCS5D1Bua0?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">3 N-Trained Policy Tested under 0 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/tlnyckENcog" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/tlnyckENcog?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">In-Regime Execution: 3 N-Trained Policy Tested under 3 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/Uqu3Ijqecrw" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Uqu3Ijqecrw?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">Upward Transfer: 3 N-Trained Policy Tested under 6 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/srl3XB_VHSI" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/srl3XB_VHSI?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">Upward Transfer Failure: 3 N-Trained Policy Tested under 9 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/Lt2-2X9F7wk" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Lt2-2X9F7wk?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">Downward Transfer: 9 N-Trained Policy Tested under 0 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/Of9iHqqWSSw" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Of9iHqqWSSw?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">Downward Transfer: 9 N-Trained Policy Tested under 3 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/3grfxw67uD8" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/3grfxw67uD8?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">Downward Transfer: 9 N-Trained Policy Tested under 6 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/_Dgg9G6eKDE" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/_Dgg9G6eKDE?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">In-Regime Execution: 9 N-Trained Policy Tested under 9 N Resistance</div></div>
 
 <div class="section-caption">
@@ -383,19 +383,19 @@ The atmospheric-pressure condition uses 0 pump cycles, while the negative-pressu
 <div class="yt-grid">
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/S44IkBpVMkw" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/S44IkBpVMkw?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">In-Regime Real-Bottle Execution: AP-Trained Policy Tested under 0-Pump AP</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/S44IkBpVMkw" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/S44IkBpVMkw?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">Real-Bottle Upward Transfer: 0-Pump AP-Trained Policy Tested under 70-Pump NP</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/S44IkBpVMkw" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/S44IkBpVMkw?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">Real-Bottle Downward Transfer: 70-Pump NP-Trained Policy Tested under 0-Pump AP</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/yIyjBJyEsAY" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/yIyjBJyEsAY?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">In-Regime Real-Bottle Execution: NP-Trained Policy Tested under 70-Pump Negative Pressure</div></div>
 
 <div class="section-caption">
