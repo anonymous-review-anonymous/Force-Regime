@@ -260,7 +260,7 @@ Force-Regime Downward Compatibility in Contact-Rich Bimanual Imitation Learning
 <div class="affiliation">Affiliation withheld for double-blind review</div>
 
 <div class="links">
-<a href="https://youtu.be/kj5nVsSxAcY" target="_blank">Video</a>
+<a href="https://youtu.be/gi_7zxDIAPQ" target="_blank">Video</a>
 <a class="disabled">Hardware</a>
 <a class="disabled">Dataset</a>
 <a class="disabled">Paper</a>
@@ -268,38 +268,43 @@ Force-Regime Downward Compatibility in Contact-Rich Bimanual Imitation Learning
 </div>
 
 <div class="resource-note">
-This is a quick preview for collaborators; the formal website and submission videos will be updated within two days.
+Supplementary project page for anonymous review.
 </div>
 
 <!-- OVERVIEW -->
 <div class="section">
 <h2>Overview</h2>
 <p>
-We study force-regime generalization in contact-rich bimanual stopper removal.
-The visual task remains nearly identical across conditions, but the hidden pulling resistance changes.
-The preview videos show representative policy behaviors under programmable force regimes and real-bottle pressure-induced resistance.
+Contact-rich manipulation often depends on hidden interaction forces that are not directly observable from visual appearance.
+We study this problem in a bimanual stopper-removal task, where the visual scene, object geometry, and task sequence remain nearly fixed while the hidden pulling resistance changes.
+Using a programmable bottle-like device and real-bottle pressure conditions, we evaluate how imitation policies transfer across force regimes.
+</p>
+
+<p>
+Our results reveal an asymmetric transfer pattern: policies trained under higher resistance transfer reliably to easier regimes, whereas policies trained under lower resistance fail when tested under harder pulling conditions.
+We refer to this effect as <strong>force-regime downward compatibility</strong>.
 </p>
 
 <div class="kpi">
 
 <div class="card">
-<div class="big">Hidden force regimes</div>
+<div class="big">Programmable force regimes</div>
 <div class="small">
-A programmable bottle-like device changes pulling resistance while preserving the external task geometry and visual appearance.
+A tendon-driven stopper device generates repeatable hidden pulling resistance while preserving external task geometry and visual appearance.
 </div>
 </div>
 
 <div class="card">
 <div class="big">Downward compatibility</div>
 <div class="small">
-High-force-trained policies transfer to easier regimes, while lower-force policies fail when tested under harder resistance.
+High-force-trained policies transfer to lower-force regimes, while lower-force-trained policies fail to extrapolate upward.
 </div>
 </div>
 
 <div class="card">
 <div class="big">Real-bottle validation</div>
 <div class="small">
-Atmospheric-pressure and negative-pressure wine-bottle conditions provide a realistic harder/easier comparison outside the programmable device.
+Atmospheric-pressure and negative-pressure wine-bottle conditions test the same harder-to-easier trend outside the programmable device.
 </div>
 </div>
 
@@ -308,15 +313,14 @@ Atmospheric-pressure and negative-pressure wine-bottle conditions provide a real
 
 <!-- MAIN VIDEO -->
 <div id="video" class="section">
-<h2>Main Preview Video</h2>
+<h2>Project Video</h2>
 <div class="video">
-<iframe src="https://www.youtube.com/embed/kj5nVsSxAcY" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/gi_7zxDIAPQ" allowfullscreen></iframe>
 </div>
 
 <div class="section-caption">
-  <strong>Main Preview.</strong>
-  This video provides a quick collaborator-facing overview of the task setup, programmable force regimes, and representative policy behaviors.
-  The formal submission video is still under preparation.
+  <strong>Project Video.</strong>
+  Overview of the experimental platform, programmable pulling-force regimes, cross-regime policy evaluations, and real-bottle AP/NP validation.
 </div>
 </div>
 
@@ -325,49 +329,97 @@ Atmospheric-pressure and negative-pressure wine-bottle conditions provide a real
 <h2>Programmable Device Cross-Regime Videos</h2>
 
 <p>
-These videos show representative ACT policy rollouts on the programmable stopper-removal device.
+The following videos show representative ACT policy rollouts on the programmable stopper-removal device.
 Rows correspond to the training force regime and columns correspond to the test force regime.
-The highlighted cases illustrate both in-regime execution and asymmetric force-regime transfer.
+These qualitative results complement the train--test force-regime matrix by visualizing both in-regime execution and off-diagonal transfer.
 </p>
 
 <div class="yt-grid">
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/3nCS5D1Bua0?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-3n-0n"
+  class="yt-player"
+  src="https://www.youtube.com/embed/3nCS5D1Bua0?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">3 N-Trained Policy Tested under 0 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/tlnyckENcog?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-3n-3n"
+  class="yt-player"
+  src="https://www.youtube.com/embed/tlnyckENcog?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">In-Regime Execution: 3 N-Trained Policy Tested under 3 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/Uqu3Ijqecrw?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-3n-6n"
+  class="yt-player"
+  src="https://www.youtube.com/embed/Uqu3Ijqecrw?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">Upward Transfer: 3 N-Trained Policy Tested under 6 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/srl3XB_VHSI?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-3n-9n"
+  class="yt-player"
+  src="https://www.youtube.com/embed/srl3XB_VHSI?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">Upward Transfer Failure: 3 N-Trained Policy Tested under 9 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/Lt2-2X9F7wk?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-9n-0n"
+  class="yt-player"
+  src="https://www.youtube.com/embed/Lt2-2X9F7wk?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">Downward Transfer: 9 N-Trained Policy Tested under 0 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/Of9iHqqWSSw?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-9n-3n"
+  class="yt-player"
+  src="https://www.youtube.com/embed/Of9iHqqWSSw?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">Downward Transfer: 9 N-Trained Policy Tested under 3 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/3grfxw67uD8?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-9n-6n"
+  class="yt-player"
+  src="https://www.youtube.com/embed/3grfxw67uD8?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">Downward Transfer: 9 N-Trained Policy Tested under 6 N Resistance</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/_Dgg9G6eKDE?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-9n-9n"
+  class="yt-player"
+  src="https://www.youtube.com/embed/_Dgg9G6eKDE?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">In-Regime Execution: 9 N-Trained Policy Tested under 9 N Resistance</div></div>
 
 <div class="section-caption">
   <strong>Programmable Device Videos.</strong>
-  Representative rollouts corresponding to the highlighted train--test settings in the programmable force-regime matrix.
-  The 9 N-trained policy transfers reliably to easier regimes, whereas the 3 N-trained policy fails when tested under sufficiently higher resistance.
+  Representative rollouts under controlled hidden pulling resistance.
+  The 9 N-trained policy transfers to easier regimes, whereas the 3 N-trained policy fails under sufficiently higher resistance.
 </div>
 
 </div>
@@ -378,32 +430,56 @@ The highlighted cases illustrate both in-regime execution and asymmetric force-r
 <h2>Real-Bottle AP/NP Validation Videos</h2>
 
 <p>
-These videos show cross-condition testing on a real wine bottle with a pumpable vacuum stopper.
-The atmospheric-pressure condition uses 0 pump cycles, while the negative-pressure condition uses 70 pump cycles before each trial.
+We further evaluate cross-condition transfer on a real wine bottle with a pumpable vacuum stopper.
+The atmospheric-pressure condition uses 0 pump cycles, while the negative-pressure condition uses 70 pump cycles before each trial, creating higher suction-related removal resistance.
 </p>
 
 <div class="yt-grid">
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/ginMLkt15Kc?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-AP-AP"
+  class="yt-player"
+  src="https://www.youtube.com/embed/ginMLkt15Kc?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">In-Regime Real-Bottle Execution: AP-Trained Policy Tested under 0-Pump AP</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/MQDoPbmi6PE?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-AP-NP"
+  class="yt-player"
+  src="https://www.youtube.com/embed/MQDoPbmi6PE?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">Real-Bottle Upward Transfer: 0-Pump AP-Trained Policy Tested under 70-Pump NP</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/S44IkBpVMkw?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-NP-AP"
+  class="yt-player"
+  src="https://www.youtube.com/embed/S44IkBpVMkw?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">Real-Bottle Downward Transfer: 70-Pump NP-Trained Policy Tested under 0-Pump AP</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/yIyjBJyEsAY?mute=1" allowfullscreen></iframe>
+<iframe
+  id="yt-NP-NP"
+  class="yt-player"
+  src="https://www.youtube.com/embed/yIyjBJyEsAY?enablejsapi=1&mute=1&playsinline=1&rel=0&modestbranding=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
 </div><div class="yt-label">In-Regime Real-Bottle Execution: NP-Trained Policy Tested under 70-Pump Negative Pressure</div></div>
 
 <div class="section-caption">
   <strong>Real-Bottle AP/NP Videos.</strong>
-  Representative real-bottle executions under atmospheric-pressure and negative-pressure conditions.
-  The harder NP-trained policy transfers reliably to AP, whereas the easier AP-trained policy rarely succeeds under NP.
+  Representative executions under atmospheric-pressure and negative-pressure conditions.
+  The NP-trained policy transfers to AP, whereas the AP-trained policy rarely succeeds under NP.
 </div>
 
 </div>
@@ -422,9 +498,62 @@ year={2026}
 </div>
 
 <div class="footer">
-  Anonymous project page for collaborator preview.
+  Anonymous project page for supplementary material.
 </div>
 
 </div>
+<script>
+  // Load YouTube IFrame API
+  var tag = document.createElement("script");
+  tag.src = "https://www.youtube.com/iframe_api";
+  document.body.appendChild(tag);
+
+  var players = {};
+
+  function onYouTubeIframeAPIReady() {
+    document.querySelectorAll(".yt-player").forEach(function(iframe) {
+      players[iframe.id] = new YT.Player(iframe.id, {
+        events: {
+          "onReady": function(event) {
+            event.target.mute();
+          }
+        }
+      });
+    });
+
+    setupScrollAutoplay();
+  }
+
+  function setupScrollAutoplay() {
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        const iframe = entry.target;
+        const player = players[iframe.id];
+
+        if (!player || typeof player.playVideo !== "function") return;
+
+        if (entry.isIntersecting) {
+          // Pause other videos first
+          Object.keys(players).forEach(function(id) {
+            if (id !== iframe.id && players[id].pauseVideo) {
+              players[id].pauseVideo();
+            }
+          });
+
+          player.mute();
+          player.playVideo();
+        } else {
+          player.pauseVideo();
+        }
+      });
+    }, {
+      threshold: 0.55
+    });
+
+    document.querySelectorAll(".yt-player").forEach(function(iframe) {
+      observer.observe(iframe);
+    });
+  }
+</script>
 </body>
 </html>
