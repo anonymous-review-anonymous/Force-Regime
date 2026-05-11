@@ -385,11 +385,11 @@ The atmospheric-pressure condition uses 0 pump cycles, while the negative-pressu
 <div class="yt-grid">
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/S44IkBpVMkw?mute=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ginMLkt15Kc?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">In-Regime Real-Bottle Execution: AP-Trained Policy Tested under 0-Pump AP</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
-<iframe src="https://www.youtube.com/embed/S44IkBpVMkw?mute=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/MQDoPbmi6PE?mute=1" allowfullscreen></iframe>
 </div><div class="yt-label">Real-Bottle Upward Transfer: 0-Pump AP-Trained Policy Tested under 70-Pump NP</div></div>
 
 <div class="yt-card"><div class="yt-wrap">
