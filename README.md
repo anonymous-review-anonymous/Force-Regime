@@ -130,6 +130,22 @@ h2{
 
 p{ font-size:17px; }
 
+/* ---------- subsection titles ---------- */
+.subsection-title{
+  font-size:1.15rem;
+  font-weight:700;
+  margin:34px 0 6px 0;
+  color:#222;
+}
+
+.subsection-note{
+  font-size:15px;
+  color:#555;
+  margin-top:0;
+  margin-bottom:18px;
+  line-height:1.55;
+}
+
 /* ---------- KPI cards ---------- */
 .kpi{
   display:grid;
@@ -334,6 +350,11 @@ Rows correspond to the training force regime and columns correspond to the test 
 These qualitative results complement the train--test force-regime matrix by visualizing both in-regime execution and off-diagonal transfer.
 </p>
 
+<div class="subsection-title">3 N-Trained Policy</div>
+<div class="subsection-note">
+The policy is trained under the easier 3 N force regime and tested across 0, 3, 6, and 9 N hidden pulling resistance.
+</div>
+
 <div class="yt-grid">
 
 <div class="yt-card"><div class="yt-wrap">
@@ -376,6 +397,20 @@ These qualitative results complement the train--test force-regime matrix by visu
 </iframe>
 </div><div class="yt-label">Upward Transfer Failure: 3 N-Trained Policy Tested under 9 N Resistance</div></div>
 
+</div>
+
+<div class="section-caption">
+  <strong>3 N-Trained Policy.</strong>
+  The lower-force policy succeeds in easier regimes but fails as the hidden pulling resistance increases, illustrating limited upward transfer.
+</div>
+
+<div class="subsection-title">9 N-Trained Policy</div>
+<div class="subsection-note">
+The policy is trained under the harder 9 N force regime and tested across easier and in-regime resistance conditions.
+</div>
+
+<div class="yt-grid">
+
 <div class="yt-card"><div class="yt-wrap">
 <iframe
   id="yt-9n-0n"
@@ -416,13 +451,13 @@ These qualitative results complement the train--test force-regime matrix by visu
 </iframe>
 </div><div class="yt-label">In-Regime Execution: 9 N-Trained Policy Tested under 9 N Resistance</div></div>
 
-<div class="section-caption">
-  <strong>Programmable Device Videos.</strong>
-  Representative rollouts under controlled hidden pulling resistance.
-  The 9 N-trained policy transfers to easier regimes, whereas the 3 N-trained policy fails under sufficiently higher resistance.
 </div>
 
+<div class="section-caption">
+  <strong>9 N-Trained Policy.</strong>
+  The higher-force policy transfers reliably to lower-resistance regimes while remaining successful in its original 9 N regime, illustrating downward compatibility.
 </div>
+
 </div>
 
 <!-- ===== Real-Bottle AP/NP Videos ===== -->
@@ -433,6 +468,11 @@ These qualitative results complement the train--test force-regime matrix by visu
 We further evaluate cross-condition transfer on a real wine bottle with a pumpable vacuum stopper.
 The atmospheric-pressure condition uses 0 pump cycles, while the negative-pressure condition uses 70 pump cycles before each trial, creating higher suction-related removal resistance.
 </p>
+
+<div class="subsection-title">AP-Trained Policy</div>
+<div class="subsection-note">
+The policy is trained under atmospheric pressure with 0 pump cycles and tested under both AP and NP conditions.
+</div>
 
 <div class="yt-grid">
 
@@ -456,6 +496,20 @@ The atmospheric-pressure condition uses 0 pump cycles, while the negative-pressu
 </iframe>
 </div><div class="yt-label">Real-Bottle Upward Transfer: 0-Pump AP-Trained Policy Tested under 70-Pump NP</div></div>
 
+</div>
+
+<div class="section-caption">
+  <strong>AP-Trained Policy.</strong>
+  The easier AP-trained policy succeeds in-regime but rarely succeeds when tested under the harder NP condition.
+</div>
+
+<div class="subsection-title">NP-Trained Policy</div>
+<div class="subsection-note">
+The policy is trained under 70-pump negative pressure and tested under both AP and NP conditions.
+</div>
+
+<div class="yt-grid">
+
 <div class="yt-card"><div class="yt-wrap">
 <iframe
   id="yt-NP-AP"
@@ -476,13 +530,13 @@ The atmospheric-pressure condition uses 0 pump cycles, while the negative-pressu
 </iframe>
 </div><div class="yt-label">In-Regime Real-Bottle Execution: NP-Trained Policy Tested under 70-Pump Negative Pressure</div></div>
 
-<div class="section-caption">
-  <strong>Real-Bottle AP/NP Videos.</strong>
-  Representative executions under atmospheric-pressure and negative-pressure conditions.
-  The NP-trained policy transfers to AP, whereas the AP-trained policy rarely succeeds under NP.
 </div>
 
+<div class="section-caption">
+  <strong>NP-Trained Policy.</strong>
+  The harder NP-trained policy transfers reliably to the easier AP condition while remaining successful under NP, matching the programmable-device harder-to-easier trend.
 </div>
+
 </div>
 
 <div class="section">
@@ -502,6 +556,7 @@ year={2026}
 </div>
 
 </div>
+
 <script>
   // Load YouTube IFrame API
   var tag = document.createElement("script");
@@ -533,13 +588,6 @@ year={2026}
         if (!player || typeof player.playVideo !== "function") return;
 
         if (entry.isIntersecting) {
-          // Pause other videos first
-          Object.keys(players).forEach(function(id) {
-            if (id !== iframe.id && players[id].pauseVideo) {
-              players[id].pauseVideo();
-            }
-          });
-
           player.mute();
           player.playVideo();
         } else {
@@ -547,7 +595,7 @@ year={2026}
         }
       });
     }, {
-      threshold: 0.55
+      threshold: 0.45
     });
 
     document.querySelectorAll(".yt-player").forEach(function(iframe) {
@@ -555,5 +603,6 @@ year={2026}
     });
   }
 </script>
+
 </body>
 </html>
