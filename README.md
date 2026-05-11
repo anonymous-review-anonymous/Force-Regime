@@ -261,6 +261,8 @@ Force-Regime Downward Compatibility in Contact-Rich Bimanual Imitation Learning
 
 <div class="links">
 <a href="https://youtu.be/kj5nVsSxAcY" target="_blank">Main Video</a>
+<a class="disabled">Hardware</a>
+<a class="disabled">Dataset</a>
 <a class="disabled">Paper</a>
 <a class="disabled">Code</a>
 </div>
